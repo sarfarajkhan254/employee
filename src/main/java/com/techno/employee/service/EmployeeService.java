@@ -22,11 +22,7 @@ public class EmployeeService {
 	}
 
 	public List<Employee> getEmployee() {
-		System.out.println("Sarfaraj");
-		System.out.println("Sarfaraj");
-		System.out.println("Sarfaraj");
-		System.out.println("Sarfaraj");
-		System.out.println("Sarfaraj");
+
 		return repo.findAll();
 	}
 
