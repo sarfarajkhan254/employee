@@ -17,7 +17,7 @@ public class EmployeeService {
 	public String addEmployee(Employee employee) {
 		
 		repo.save(employee);
-		
+		System.out.println("Employee added successfully");
 		return "Employee saved successfully";
 	}
 
