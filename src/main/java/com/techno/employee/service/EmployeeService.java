@@ -18,6 +18,8 @@ public class EmployeeService {
 		
 		repo.save(employee);
 		System.out.println("Employee added successfully");
+		System.out.println("Employee added successfully");
+		
 		return "Employee saved successfully";
 	}
 
